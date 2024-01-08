@@ -14,7 +14,18 @@ streamlit hello
 
 ## app.py
 An example custom streamlit application.
-This will open up a new tab in a browswer with the web application.
+This will open up a new tab in a browser with the web application.
 ```
 streamlit run app.py
+```
+
+## app.html
+This is an example streamlit application with html.
+This will open up a tab in a browser with the web application.
+```
+# macOS
+open app.html
+
+# windows
+./app.html
 ```
