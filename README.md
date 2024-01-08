@@ -29,3 +29,18 @@ open app.html
 # windows
 ./app.html
 ```
+
+## streamlit-react
+This is an example react streamlit application.
+This will open up the application in a browser.
+```
+cd streamlit-react
+npm run dev
+```
+
+## Troubleshooting
+To run the html or react application ensure the streamlit server is running.
+Ensure that the host and port match in the `<iframe>` for the html or react application.
+```
+streamlit run app.py
+```
